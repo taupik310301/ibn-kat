@@ -41,10 +41,9 @@ body {
 
 .numbered-list li::before {
   counter-increment: section;
-  content: counter(section) ". ";
   width: 30px;
   display: inline-block;
-  text-align: right;
+  text-align: justify;
   margin-right: 10px;
   font-weight: bold;
 }
